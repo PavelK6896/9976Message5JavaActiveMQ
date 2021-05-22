@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path:
+
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+  application:
+    name: m5
+
+  jackson:
+    serialization:
+      indent_output: true
+
